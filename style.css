@@ -19,8 +19,8 @@ body {
 }
 
 .container {
-  width: 100wh;
-  height: 100vh;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .container, .profile, .link-list, .username {
@@ -71,6 +71,7 @@ body {
   text-align: center;
 
   text-decoration: none;
+  color: var(--purple);
 }
 
 .link-list a:hover {
