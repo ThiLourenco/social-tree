@@ -1,0 +1,103 @@
+:root {
+  --body-bg-color: #F1F1F1;
+  --purple: #BB77DD;
+  --purple-secondary: #B233E1
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.5em;
+  background: var(--body-bg-color);
+
+  font-family: 'Poppins, sans-serif';
+  font-style: normal;
+}
+
+.container {
+  width: 100wh;
+  height: 100vh;
+}
+
+.container, .profile, .link-list, .username {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  width: 21.3rem;
+  height: 21.3rem;
+
+  border: 2px solid var(--purple);
+  border-radius: 50%;
+  
+}
+
+.profile img {
+  width: 20rem;
+  height: 20rem;
+
+  border-radius: 50%;
+}
+
+.image {
+  width: 50%;
+  height: 50%;
+}
+
+.username {
+  margin: 5rem;
+  color: var(--purple);
+}
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+.link-list a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  text-decoration: none;
+}
+
+.link-list a:hover {
+  color: var(--purple);
+  border: 0.2rem solid var(--purple);
+  transition: 0.6s;
+}
+
+.link {
+  width: 32.6rem;
+  height: 4.9rem;
+
+  align-items: center;
+  text-align: center;
+
+  border: 0.2rem solid var(--purple);
+  border-radius: 0.4rem;
+
+  font-weight: 600;
+  text-transform: uppercase;
+
+  margin-bottom: 1rem;
+}
+
+.icons{
+  display: flex;
+  gap: 2.9rem;
+
+  margin-top: 6rem;
+}
