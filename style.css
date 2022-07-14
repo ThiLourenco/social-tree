@@ -70,12 +70,25 @@ body {
   justify-content: center;
   text-align: center;
 
+  
   text-decoration: none;
   color: var(--purple);
 }
 
-.link-list a:hover {
+.link-list a:link {
   color: var(--purple);
+}
+
+.link-list a:visited {
+  color: var(--purple);
+}
+
+.link-list a:active {
+  color: var(--purple);
+}
+
+.link-list a:hover {
+  color: var(--purple-secondary);
   border: 0.2rem solid var(--purple);
   transition: 0.6s;
 }
